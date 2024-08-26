@@ -12,7 +12,7 @@ print() #отступ между заданиями ( для красоты))
 
     #Работа с множествами
 my_set = {3, 2, 1, 3, 2, False, 'Vasia', 2, False}
-print(my_set)
+print('Множество' , my_set)
 my_set.update( [4, 'Kolya'])
 my_set.remove('Vasia')
-print(my_set)
+print('Обновленное множество' , my_set)
