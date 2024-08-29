@@ -1,6 +1,6 @@
-first = 123
-second = 124
-third = 125
+first = int(input('Введите 1 число'))
+second = int(input ('Введите второе число'))
+third = int(input ('Введите 3 число'))
 
 if first == second and first == third and second == third :
     print(3)
